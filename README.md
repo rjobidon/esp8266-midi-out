@@ -2,7 +2,7 @@
 
 # ESP-8266 Send notes to a MIDI musical instruments
 
-The **Musical Instrument Digital Interface (MIDI)** protocol allows communication between musical instruments and audio devices. The first MIDI synthesizer was the Roland Jupiter-6 and the first drum machine was the Roland TR-909. A single MIDI cable can carry information up to sixteen channels, or instruments. MIDI messages include musical notes, velocity, vibrato, panning, clock signal and system information. The serial trasmission rate for MIDI is always 31250 bits per second (bauds).
+The **Musical Instrument Digital Interface (MIDI)** protocol allows communication between musical instruments and audio devices. The first MIDI synthesizer was the Roland Jupiter-6 and the first MIDI drum machine was the Roland TR-909. A single MIDI cable can carry information up to sixteen channels, or instruments. MIDI messages include musical notes, velocity, vibrato, panning, clock signal and system information. The serial trasmission rate for MIDI is always 31250 bits per second (bauds).
 
 While the original MIDI protocol was designed for 5 V devices, the protocol was revised to include 3,3 V devices. This makes the ESP-8266 a perfect MIDI controller to send and receive MIDI information. This page explains the most basic circuit and program to send MIDI notes to any musical instruments, in this case the Roland TR-08. The program also uses the Software Serial library to send serial data on pin D6, instead of the default GPIO 1 (TX) pin.
 
